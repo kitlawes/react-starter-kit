@@ -1,9 +1,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import HelloMessage from './HelloMessage/HelloMessage';
+import CountriesPerContinent from './CountriesPerContinent/CountriesPerContinent';
 import 'file-loader?name=[name].[ext]!./favicon.ico';
 
 ReactDOM.render(
-    <HelloMessage name="John"/>,
+    <CountriesPerContinent />,
     document.querySelector('#app')
 );
