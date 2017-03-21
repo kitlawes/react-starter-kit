@@ -4,7 +4,7 @@ import './HelloMessage.scss';
 export default class HelloMessage extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {toggle: true};
+        this.state = {cycle: 1};
 
         // We generally recommend binding in the constructor or using the property initializer syntax,
         // to avoid this sort of performance problem.
@@ -14,7 +14,7 @@ export default class HelloMessage extends React.Component {
 
     onClickHandler() {
         this.setState((prevState) => ({
-            toggle: !prevState.toggle
+            cycle: prevState.cycle % 10 + 1
         }));
     }
 
@@ -23,7 +23,7 @@ export default class HelloMessage extends React.Component {
             <div>
                 <div>Hello {this.props.name}</div>
                 <button onClick={this.onClickHandler}>
-                    toggle: {this.state.toggle ? 'ON' : 'OFF'}
+                    cycle: {this.state.cycle}
                 </button>
             </div>
         );
