@@ -1,4 +1,4 @@
-Includes only the latest and greatest web technologies. Use it for your next heroic SPA project because you can't go wrong with it. Contains minimal viable "hello, world" code just to proof it works. Remove hello world and write your own great project.
+Includes only the latest and greatest web technologies. Use it for your next heroic SPA project because you can't go wrong with it. Contains minimal viable "hello, world" code just to prove it works. Remove hello world and write your own great project.
 
 # 🎁 What’s Inside?
 

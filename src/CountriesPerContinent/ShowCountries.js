@@ -5,7 +5,6 @@ for (property in countriesPerContinent) {
     option.value = property;
     option.text = countriesPerContinent[property].text;
     dropDownMenu.add(option);
-    debugger;
 }
 
 function showCountries(continent) {
